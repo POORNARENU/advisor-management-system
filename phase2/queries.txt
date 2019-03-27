@@ -1,0 +1,114 @@
+   fname    |   lname   |               address               
+-------------+-----------+-------------------------------------
+ Satish      | hunnur    | #01,annadannapa lane,bangalore-58
+ Rajesh      | hollur    | #022,Kempegowda layout,bangalore-08
+ Nandini     | Reddy     | #011,Kamalanagr,bangalore-68
+ Swathi      | Neela     | #221,Malleshwarm,bangalore-01
+ Radhika     | Ram       | #109,leggere,bangalore-12
+ Jayaram     | K         | #55,Vijaynagar,bangalore-08
+ Mahajan     | Sheattar  | #229,Kengeri,bangalore-57
+ Ramachandra | D         | #330,Banashankari,bangalore-02
+ Manjula     | R         | #01,Bommasandra,bangalore-04
+ Akash       | Kamble    | Bidar
+ Ramesh      | Basargiri | Mysure
+ Suresh      | Hunnur    | Bijapur
+ Avathar     | Roy       | Jalahalli crose bangalore
+ Teju        | Kumar     | Marathhalli bangalore
+ Rakesh      | Kumar     | Mattikere bangalore
+ Sanjay      | Rao       | JC nagar bangalore
+ Ranaganath  | Rao       | #89,R T nagar,bangalore-66
+ Manu        | Priya     | SVK Nagar bangalore
+ Komala      | kamble    | Basaveshwar Nagar bangalore
+ Lakshmi     | Sagar     | Dhobi Ghat bangalore
+ Pooja       | Ollkar    | Okalipuram bangalore
+ Divya       | Shree     | Lakshmipuram bangalore
+ Vidya       | Shree     | Chikpatte bangalore
+ Deekshitha  | Heremath  | Jayanagar bangalore
+ Poornima    | Ram       | Srinivaspura bangalore
+ Kaveri      | Ramppa    | Ramanahalli bangalore
+(26 rows)
+
+~
+~
+~
+ select fname,lname,advisor_id,section from advisor where c_code=17251;
+  fname  | lname  |   advisor_id    | section 
+---------+--------+-----------------+---------
+ Preethi | Ganesh | 10              | 4B
+(1 row)
+
+
+ select st_name,st_ssn,st_section from issues where c_code=17252;
+   st_name   | st_ssn  | st_section 
+-------------+---------+------------
+ Jayaram     | 2017006 | 4C
+ Mahajan     | 2017008 | 4A
+ Ramachandra | 2017009 | 4B
+ Manjula     | 2017010 | 4C
+ Akash       | 2017013 | 4B
+ Ramesh      | 2017014 | 4C
+
+select st_name,st_ssn,st_section,sem,complaints from issues where c_code=17253;
+st_name | st_ssn  | st_section | sem |                                              complaints                                              
+---------+---------+------------+-----+------------------------------------------------------------------------------------------------------
+ Suresh  | 2017015 | 4D         | 4   | Hard to understanding MPCA                                                                          
+ Avathar | 2017017 | 4B         | 4   | Hard to understanding MPCA                                                                          
+ Teju    | 2017018 | 4C         | 4   | Hard to understanding MPCA                                                                          
+ Rakesh  | 2017019 | 4D         | 4   | Hard to understanding MPCA                                                                          
+ Sanjay  | 2017020 | 4A         | 4   | Hard to understanding MPCA                                                                          
+(5 rows)
+
+~ select count(*) from issues;
+ count 
+-------
+    19
+(1 row)
+
+advisor_proctor_management=# select p_id from advisor where p_id=2017026;
+  p_id   
+---------
+ 2017026
+(1 row)
+
+
+advisor_proctor_management=# select fname,mint,lname,dob from student where ssn between '2017001' and '2017017';
+    fname    | mint |   lname   |    dob     
+-------------+------+-----------+------------
+ Satish      | h    | hunnur    | 1999-02-01
+ Rajesh      | M    | hollur    | 1999-01-01
+ Swathi      | S    | Neela     | 1999-09-02
+ Nandini     | L    | Reddy     | 1999-01-01
+ Radhika     | R    | Ram       | 1999-08-02
+ Jayaram     | K    | K         | 1999-12-30
+ Ranaganath  | G    | Rao       | 1999-10-21
+ Mahajan     | G S  | Sheattar  | 1999-09-03
+ Ramachandra | H    | D         | 1999-06-12
+ Manjula     | K    | R         | 1999-09-12
+ Akash       | M    | Kamble    | 1999-09-01
+ Ramesh      | H    | Basargiri | 1998-10-23
+ Suresh      | S    | Hunnur    | 1998-07-25
+ Avathar     | P    | Roy       | 1999-01-28
+(14 rows)
+
+advisor_proctor_management=# select p_id from proctor,student where p_id=ssn group by p_id; 
+  p_id   
+---------
+ 2017025
+ 2017017
+ 2017003
+ 2017020
+ 2017004
+ 2017029
+ 2017001
+ 2017005
+ 2017026
+ 2017030
+ 2017022
+ 2017015
+ 2017009
+(13 rows)
+
+
+
+
+

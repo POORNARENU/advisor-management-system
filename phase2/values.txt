@@ -1,0 +1,117 @@
+INSERT INTO COURSE VALUES (17251,4,'Linear ALgebra and its Application',52,17251);
+INSERT INTO COURSE VALUES (17252,4,'Design and analysis of Algoriths',52,17252);
+INSERT INTO COURSE VALUES (17253,4,'Microprossorrs and Computer Archiecture',52,17253);
+INSERT INTO COURSE VALUES (17254,4,'Theory Of Computation',52,17254);
+INSERT INTO COURSE VALUES (17255,4,'DataBase Management Systems',52,17255);
+INSERT INTO COURSE VALUES (17256,2,'Android',42,17256);
+INSERT INTO COURSE VALUES (17257,2,'Engg Mathematics 2',42,17257);
+INSERT INTO COURSE VALUSE(17258,2,'C Programming',42,17258);
+INSERT INTO COURSE VALUSE(17259,2,'Python',42,17259);
+INSERT INTO COURSE VALUSE(17260,2,'Mathematics 3',52,17260);
+INSERT INTO COURSE VALUSE(17261,2,'DAA LAB',26,172561);
+INSERT INTO COURSE VALUSE(17262,2,'MPCA LAB',26,17262);
+INSERT INTO COURSE VALUSE(17263,4,'Secure programming',52,17263);
+
+
+
+
+
+INSERT INTO STUDENT VALUES('Satish','h','hunnur',2017001,1999-02-01, '#01,annadannapa lane,bangalore-58','4A','satishhunnur@gmail.com', 17251);
+INSERT INTO STUDENT VALUES('Rajesh','M','hollur',2017002,1999-01-01,'#022,Kempegowda layout,bangalore-08','4B','rajeshmhollur@gmail.com',17251);
+INSERT INTO STUDENT VALUES('Swathi','S','Neela',2017003,1999-09-02,'#221,Malleshwarm,bangalore-01,'4C','swthisnella@gmail.com',17251);
+INSERT INTO STUDENT VALUES('Nandini','L','Reddy',2017004,1999-01-01,'#011,Kamalanagr,bangalore-68,'4D','nandinilreddy@gmail.com', 17251);
+INSERT INTO STUDENT VALUES('Radhika','R','Ram',2017005,1999-08-02,'#109,leggere,bangalore-12,'4A','radhikarram@gmail.com',17251);
+INSERT INTO STUDENT VALUES('Jayaram','K','K',2017006,1999-12-30,'#55,Vijaynagar,bangalore-08','4C','jayaramkk@gmail.com',17252);
+INSERT INTO STUDENT VALUES('Mahajan','G S','Sheattar',2017008,1999-09-03,'#229,Kengeri,bangalore-57','4A','majajangsshettar@gmail.com',17252);
+INSERT INTO STUDENT VALUES('Ramachandra','H','D',2017009,1999-06-12,'#330,Banashankari,bangalore-02','4B','ramachandra@gmail.com',17252);
+INSERT INTO STUDENT VALUES('Manjula','K','R',2017010,1999-09-12,'#01,Bommasandra,bangalore-04','4C','manjulakr@gmail.com', 17252);
+INSERT INTO STUDENT VALUES('Chandana','R','Ollkar',2017011,1999-01-21,'#99,J P Nagar,bangalore-80','4D','chandana@gmail.com',, 17252);
+INSERT INTO STUDENT VALUES('Rajeshwari','G','Naidu',2017012,2000-09-27,'#66,Majestic,bangalore-01','4A','rajeshwari@gmail.com',, 17252);
+INSERT INTO STUDENT VALUES('Akash','M','Kamble',2017013,1999-09-01,'Bidar','4B','akashmkamble@gmail.com', 17252);
+INSERT INTO STUDENT VALUES('Ramesh','H','Basargiri',2017014,1998-10-23,'Mysure','4C','rameshhbasargiri@gmail.com', 17252);
+INSERT INTO STUDENT VALUES('Suresh','S','Hunnur',2017015,1998-07-25,'Bijapur','4D','sureshshunnur@gmail.com', 17253);
+INSERT INTO STUDENT VALUES('Aniketh','S','Ram',2017016,1999-09-01,'Kurubarhalli bangalore','4A','aniketh@gmail.com, 17253');
+INSERT INTO STUDENT VALUES('Avathar','P','Roy',2017017,1999-01-28,'Jalahalli crose bangalore','4B','avathar@gmail.com', 17253);
+INSERT INTO STUDENT VALUES('Teju','R','Kumar',2017018,1999-06-09,'Marathhalli bangalore','4C','tejurkumar@gmail.com', 17253);
+INSERT INTO STUDENT VALUES('Rakesh','S','Kumar',2017019,1999-01-02,'Mattikere bangalore','4D','rakeshhkumar@gmail.com', 17253);
+INSERT INTO STUDENT VALUES('Anusha','T N','Mani',2017005,1999-11-24,'#091,Shnkar Matt,bangalore-50','4B','anushatnmani@gmail.com',17255);
+INSERT INTO STUDENT VALUES('Sanjay','D','Rao',2017020,1999-05-01,'JC nagar bangalore','4A','sanjyadrao@gmail.com', 17255);
+INSERT INTO STUDENT VALUES('Ranaganath','G','Rao',2017007,1999-10-21,'#89,R T nagar,bangalore-66','4A','ranaganath@gmail.com',17255);
+INSERT INTO STUDENT VALUES('Manu','V','Priya',2017021,1999-03-01,'SVK Nagar bangalore','4C','manupriya@gmail.com', 17254);
+INSERT INTO STUDENT VALUES('Komala','T','kamble',2017022,1999-07-02,'Basaveshwar Nagar bangalore','4B','lomalkmble@gmail.com', 17254);
+INSERT INTO STUDENT VALUES('Lakshmi','TB','Sagar',2017023,1999-04-11,'Dhobi Ghat bangalore','4A','lakshmi@gmail.com', 17254);
+INSERT INTO STUDENT VALUES('Sujatha','L','Ramachandra',2017024,1999-05-03,'Rajajinagar bangalore','4D','sujatharamachandrappa@gmail.com', 17254);
+INSERT INTO STUDENT VALUES('Pooja','O','Ollkar',2017025,1999-03-07,'Okalipuram bangalore','4A','poojaoollkar@gmail.com', 17255);
+INSERT INTO STUDENT VALUES('Divya','H','Shree',2017026,1999-02-01,'Lakshmipuram bangalore','4B','divyahshree@gmail.com', 17255);
+INSERT INTO STUDENT VALUES('Vidya','NR','Shree',2017027,1999-08-08,'Chikpatte bangalore','4C','vidyashree@gmail.com', 17255);
+INSERT INTO STUDENT VALUES('Deekshitha','D','Heremath',2017028,1998-01-11,'Jayanagar bangalore','4D','deekshithaheremath@gmail.com', 17255);
+INSERT INTO STUDENT VALUES('Poornima','B','Ram',2017029,1998-11-01,'Srinivaspura bangalore','3A','poornimaram@gmail.com', 17257);
+INSERT INTO STUDENT VALUES('Kaveri','M','Ramppa',2017030,1998-08-04,'Ramanahalli bangalore','3B','kaverimallapa@gmail.com', 17257);
+
+
+
+INSERT INTO PROCTOR VALUES('Shruti','k','kaivalya','500',17252,200,'shruthikaivalya@gmail.com','4A');
+INSERT INTO PROCTOR VALUES('Preethi','H','Ganesh',600,17261,300,'preethiganesh@gmail.com','4B');
+INSERT INTO PROCTOR VALUES('Chandravva','P','Hebbi',700,17251,100,'chandravvahebbi@gmail.com','4C');
+INSERT INTO PROCTOR VALUES('Sangeetha','I',800,17254,400,'sangeetha@gmail.com','4D');
+INSERT INTO PROCTOR VALUES('Vinay','G','Nagraj',900,17260,150,'vinay@gmail.com','4G');
+INSERT INTO PROCTOR VALUES('Supriya','O','Gowda',200,17258,550,'Rakshith21@gmail.com','4H');
+INSERT INTO PROCTOR VALUES('Badri','O','Prasad',201,17253,551,'badriprasad@gmail.com','4D');
+INSERT INTO PROCTOR VALUES('Mamatha','p','Gowda',202,17255,552,'mamatha@gmail.com','4A');
+INSERT INTO PROCTOR VALUES('Nancy','S','Rathin',203,17256,553,'nancyrathin@gmail.com','4B');
+INSERT INTO PROCTOR VALUES('Sindhu','T','Gowda',204,17259,554,'sindhug@gmail.com','4C');
+INSERT INTO PROCTOR VALUES('Naveen','L','Naidu',206,17261,556,'naveennaidu@gmail.com','4H');
+INSERT INTO PROCTOR VALUES('Naga','','Sundari',207,17262,557,nagasundari@gmail.com','4H');
+INSERT INTO PROCTOR VALUES('Srinivas','S','Reddy',205,17260,555,'srinivasreddy@gmail.com','4G');
+
+
+INSERT INTO ISSUES VALUES('Satish',2017001,'4A',17251,4,'Feeling difficulty in linear algebra');
+INSERT INTO ISSUES VALUES('Rajesh',2017002,'4B',17251,4,'Feeling difficulty in linear algebra');
+INSERT INTO ISSUES VALUES('Swathi',2017003,'4C',17251,4,'Feeling difficulty in understanding of linear algebra');
+INSERT INTO ISSUES VALUES('Nandini',2017004,'4D',17251,4,'Feeling difficulty in understanding of linear algebra');
+INSERT INTO ISSUES VALUES('Radhika',2017005,'4A',17251,4,'Difficulty linear algebra');
+INSERT INTO ISSUES VALUES('Jayaram',2017006,'4C',17252,4,'Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Mahajan',2017008,'4A',17252,4,'Difficulty in understanding DAA');
+INSERT INTO ISSUES VALUES('Ramachandra',2017009,'4B',17252,4,'Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Manjula',2017010,'4C',17252,4,'Feeling Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Chandana',2017011,'4D',17252,4,'Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Rajeshwari',2017012,'4A',17252,4,'Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Akash',2017013,'4B',17252,4,'Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Ramesh',2017014,'4C',17252,4,'Difficulty in DAA');
+INSERT INTO ISSUES VALUES('Suresh',2017015,'4D',17253,4,'Hard to understanding MPCA');
+INSERT INTO ISSUES VALUES('Aniketh',2017016,'4A',17253,4,'Hard to understanding MPCA');
+INSERT INTO ISSUES VALUES('Avathar',2017017,'4B',17253,4,'Hard to understanding MPCA');
+INSERT INTO ISSUES VALUES('Teju',2017018,'4C',17253,4,'Hard to understanding MPCA');
+INSERT INTO ISSUES VALUES('Rakesh',2017019,'4D',17253,4,'Hard to understanding MPCA');
+INSERT INTO ISSUES VALUES('Sanjay',2017020,'4A',17253,4,'Hard to understanding MPCA');
+INSERT INTO ISSUES VALUES('Manu',2017021,'4C',17254,4,'Difficulty in THeory of computation');
+INSERT INTO ISSUES VALUES('Komala',2017022,'4B',17254,4,'Difficulty in THeory of computation');
+INSERT INTO ISSUES VALUES('Lakshmi',2017023,'4A',17254,4,'Difficulty in THeory of computation');
+INSERT INTO ISSUES VALUES('Sujatha',2017024,'4D',17254,4,'Difficulty in THeory of computation');
+INSERT INTO STUDENT VALUES('Anusha',20170066,'4B',4,'Difficulty in DBMS',17255);
+INSERT INTO STUDENT VALUES('Ranaganath',2017007,'4A',4,'Difficulty in DBMS'',17255);
+INSERT INTO ISSUES VALUES('Pooja',2017025,'4A',4,'Difficulty in DBMS',17255);
+INSERT INTO ISSUES VALUES('Divya',2017026,'4B',4,'Difficulty in DBMS', 17255);
+INSERT INTO ISSUES VALUES('Vidya',2017027,'4C',4,'Difficulty in DBMS', 17255);
+INSERT INTO ISSUES VALUES('Deekshitha',2017028,'4D',4,'Difficulty in DBMS',17255);
+INSERT INTO ISSUES VALUES('Poornima','B',2017029,'3A',3,'Difficulty in solving problems' 17257);
+INSERT INTO ISSUES VALUES('Kaveri',2017030,'3B',3,'Difficulty in solving problems in m2,17257);
+
+
+
+
+INSERT INTO ADVISOR VALUES('Preethi','H','Ganesh',10,'4B',600);
+INSERT INTO ADVISOR VALUES('Chandravva','B','Hebbi',20,'4C',700);
+INSERT INTO ADVISOR VALUES('Sangeetha','V','I',5,'4D',800);
+INSERT INTO ADVISOR VALUES('Vinay','N','Nagraj',7,'4G',900);
+INSERT INTO ADVISOR VALUES('Rakshith','N','Gowda',3,'4H',200);
+INSERT INTO ADVISOR VALUES('Shruthi','K','Kaivalya',7,'4A',500);
+
+
+
+
+
+
+
+
+
